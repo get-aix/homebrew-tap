@@ -1,7 +1,8 @@
 # get-aix Homebrew tap
 
 ```sh
-brew install get-aix/tap/aix
+brew tap get-aix/tap
+brew install aix
 ```
 
 Formulas here are generated and updated automatically by the
