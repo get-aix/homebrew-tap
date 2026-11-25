@@ -2,28 +2,28 @@
 class Aix < Formula
   desc "Launch AI coding tools with the right AI gateway profile and credentials"
   homepage "https://github.com/get-aix/aix"
-  version "1.0.2"
+  version "1.0.3"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/get-aix/aix/releases/download/v1.0.2/aix-aarch64-apple-darwin"
-      sha256 "9cdc37d20ae3a173759fa78008d4ecafe32d789f591c6793804dfca4f166f464"
+      url "https://github.com/get-aix/aix/releases/download/v1.0.3/aix-aarch64-apple-darwin"
+      sha256 "1427857069b51512fec3449f22ca9d9b905492cbea75fe86b764b7dbe228d828"
     end
     on_intel do
-      url "https://github.com/get-aix/aix/releases/download/v1.0.2/aix-x86_64-apple-darwin"
-      sha256 "933f7f5f247eb1fe6eef38beaea202c0036ea8d6ee073d85f145ec51cff6aab1"
+      url "https://github.com/get-aix/aix/releases/download/v1.0.3/aix-x86_64-apple-darwin"
+      sha256 "9adb4eb9424542774387f8b2841ee0557118f9af844efb2cb5699159c4661c28"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/get-aix/aix/releases/download/v1.0.2/aix-aarch64-unknown-linux-musl"
-      sha256 "1e2e3c435f9b0d22d450c0f32723817db89b739e85bf13d0729cbde42456fbba"
+      url "https://github.com/get-aix/aix/releases/download/v1.0.3/aix-aarch64-unknown-linux-musl"
+      sha256 "acff590f7b356fc6fadce62fdbb2beb6d8087cbacb405ec1f565d911c87bc959"
     end
     on_intel do
-      url "https://github.com/get-aix/aix/releases/download/v1.0.2/aix-x86_64-unknown-linux-musl"
-      sha256 "6cbaa1741158650cb8b7c93daf7b076fdcd46666ff589b5adb089268b5ffd391"
+      url "https://github.com/get-aix/aix/releases/download/v1.0.3/aix-x86_64-unknown-linux-musl"
+      sha256 "efd5147ba5d146b3956007c9913aca117111ac0cb6fad9e1089ee6300703098a"
     end
   end
 
